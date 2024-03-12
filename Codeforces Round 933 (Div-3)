@@ -1,0 +1,15 @@
+Problem A : since we have to choose one coin from each of the pocket, brute force it as n,m <= 100.
+
+Solution link : https://codeforces.com/contest/1941/submission/250651811
+
+Problem B : Run a while loop till (n-2)th and for every iteration you have to make the i-th value to zero, which is in our hand but we have to check whether our actions causes any of the other two indices to be less than zero, if so then we could never make it equal to zero as we could only subtract.At the end check the last two elements to be zero also and with all n-2 elements not breaking the condition.
+
+Solution link : https://codeforces.com/contest/1941/submission/250669397
+
+Problem C : Run a for loop till (n-2)th index and make a newer string of three letters with the ith, i+1th and i+2th index characters and if the string equals to "map" then increment the i by 3 and it the string is "pie" then increment the i by 1 and in both the cases increment the cnt variable by 1.
+
+Solution link : https://codeforces.com/contest/1941/submission/250689419
+
+Problem D : I have used the BFS where I have three conditons as mentioned in the question and managed the duplicate values by set as otherwise it will increase the complexity by much and also use modulo for the negative index compensation.
+
+Solution link : https://codeforces.com/contest/1941/submission/250737782
